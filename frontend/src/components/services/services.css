@@ -1,0 +1,71 @@
+.titlebox{
+    margin:  50px;
+    
+}
+.titlebox h2{
+   font-weight: 800;
+    font-size: 50px; 
+}
+.titlebox span{
+    color: #E0044E;
+    
+}
+.designBox{
+    padding: 20px;
+    background: #eeecece8;
+    border-radius: 10px;
+    min-height: 320px;
+    margin: 0 0 10px 0;
+    
+}
+.designBox:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.designBox figure{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+}.designBox h3{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #000;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.designBox p{
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 10px 0;
+}
+.designBox .button{
+    background-color: #E0044E;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    display: inline-block;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+    font-weight: 600;
+    
+   
+    overflow: hidden;
+}
+.designBox .button:hover{
+   background-color: #43224D;
+   transition: 0.5s all ease-in-out;
+}
+
+.hit{
+    height: 67px;
+    overflow:hidden;
+}

@@ -1,0 +1,147 @@
+.banner{
+    width: 100%;
+    background-color: grey;
+     height: 85vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    
+ }
+
+ .content{
+    text-align: center;
+ }
+ .content h1{
+    
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -2px;
+ }
+ .content p{
+    
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-family: 'poppins',sans-serif;
+ }
+ .content h1 span{
+    
+    background: #43224D;
+    border-radius: 50px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff !important;
+ }
+
+ .bannerButton{
+    background: #E0044E;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px 0px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bannerButton:hover{
+   background: #fff;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.bottomBanner{
+    background-color: #43224D;
+    height:100px;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+}
+.bottomBanner img{
+   width: 50px;
+   margin: 5px;
+}
+.bottomBanner h3{
+    margin-top: 33px;
+    margin-left: 10px;
+ }
+ .bottomBanner p{
+    margin-top: 33px;
+    cursor: pointer;
+   
+ }
+ .bottomBanner p:hover{
+text-decoration: underline;
+cursor: pointer;
+   
+ }
+ .bottomBanner span{
+    font-size: 20px;
+    font-weight: 800;
+   
+ }
+
+ a{
+   text-decoration: none;
+   color: white;
+ }
+
+@media (min-aspect-ratio:16/9){
+    .video{
+        width:100%;
+        height:auto;
+    }
+}
+@media (max-aspect-ratio:16/10){
+    .video{
+        width:auto;
+        height:100%;
+    }
+}
+
+@media (max-width:768px){
+    .content h1{
+    
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+     }
+     .content{
+      margin-top: 100px;
+     }
+     .content p{
+        
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+     }
+     .headerButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
+@media (max-width:991px){
+    .headerButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .content{
+      margin-top: 100px;
+     }
+}
+

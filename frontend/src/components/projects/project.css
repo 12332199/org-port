@@ -1,0 +1,40 @@
+.hedingbox h2{
+    font-size: 50px;
+    margin: 20px;
+    
+    font-weight: 700;
+}
+.hedingbox h2 span{
+    color: #E0044E;
+}
+
+.wid{
+    background-color: #eeecece8;
+    border: 2px solid #f1f1f1 ;
+    border-radius: 5px;
+    width: 100%;
+    height: 42vh;
+    overflow: hidden;
+   margin-top: 10px;
+}
+.wid:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    
+}
+
+
+.Pborder h3{
+    font-size: 22px;
+    padding-top: 10px 20px;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+.Pborder p{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 10px;
+   
+}
